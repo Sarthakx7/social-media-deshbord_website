@@ -1,0 +1,16 @@
+def feet_inches_to_cm(feet, inches):
+    # 1 foot = 12 inches
+    # 1 inch = 2.54 cm
+    total_inches = feet * 12 + inches
+    cm = total_inches * 2.54
+    return cm
+
+# Take input from the user
+height_feet = int(input("Enter the height in feet: "))
+height_inches = int(input("Enter the height in inches: "))
+
+# Convert height to centimeters
+height_cm = feet_inches_to_cm(height_feet, height_inches)
+
+# Print the result
+print(f"{height_feet} feet {height_inches} inches is equal to {height_cm} centimeters.")

@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width= , initial-scale=1.0" />
+    <title>section media</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+      <nav>
+            <div class="container">
+                <h2 class="logo">Socila media page</h2>
+                <div class="search-bar">
+                    <i class="uil uil-search"></i>
+                    <input
+                    type="search"
+                    placeholder="Search for creators, inspirations and projects"
+                    />
+                </div>
+                <div class="create">
+                    <label class="btn btn-primary" for="create-post">Create</label>
+                    <div class="profile-pic">
+                        <img src="profile picture.jpg" alt="pic 1" />
+                    </div>
+                </div>
+            </div>
+      </nav>
+
+      <main>
+          <div class="container">
+              <div class="left">
+                  <a class="profile">
+                      <div class="profile-pic">
+                        <img src="profile picture.jpg">
+                      </div>
+                      <div class="handle">
+                          <h4>Sarthak</h4>
+                          <p class="text-muted">@sarthak_ss</p>
+                      </div>
+                  </a>
+                  <div class="sidebar">
+                    <a class="menu-item active">
+                      <span><i class="uil uil-home"></i></span> <h3>Home</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-compass"></i></span> <h3>Explore</h3>
+                    </a>
+                    <a class="menu-item" id="notifications">
+                      <span><i class="uil uil-bell"><small class="notification-count">9+</small></i></span> <h3>Notifications</h3>
+                      <div class="notifications-popup">
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="notifaction 1.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Hemant kumar</b> Send you a request
+                                  <small class="text-muted">3 days ago</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="notifaction 2.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Praveen meena</b> commented on your post
+                                  <small class="text-muted">15 min ago</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="notifaction 3.jpg" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Akarsh chaturwadi</b> and 210 other liked your post
+                                  <small class="text-muted">4 min ago</small>
+                              </div>
+                          </div>
+                          <div>
+                              <div class="profile-pic">
+                                  <img src="./images/notification 4.avif" >
+                              </div>
+                              <div class="notification-body">
+                                  <b>Parth gotwal</b> started following you
+                                  <small class="text-muted"> 12 min ago</small>
+                              </div>
+                          </div>
+                      </div>
+                    </a>
+                    <a class="menu-item" id="messages-notifications">
+                        <i class="uil uil-envelope"><small class="notification-count">7</small></i></span><h3>Messages</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-bookmark"></i></span> <h3>Bookmarks</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-analytics"></i></span> <h3>Analytics</h3>
+                    </a>
+                    <a class="menu-item" id="theme">
+                      <span><i class="uil uil-palette"></i></span> <h3>Theme</h3>
+                    </a>
+                    <a class="menu-item ">
+                      <span><i class="uil uil-setting"></i></span> <h3>Settings</h3>
+                    </a>
+                    
+                    <label class="btn btn-primary" for="create-post">Create Post</label>
+                </div>
+              </div>
+              
+
+
+              <div class="middle">
+                <div class="stories">
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="profile picture.jpg" alt="">
+                        </div>
+                        <p class="name">Your Story</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 3.jpeg" alt="">
+                        </div>
+                        <p class="name">Akarsh chaturvedi</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 1.jpeg" alt="">
+                        </div>
+                        <p class="name">Diksha motwani</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/stor profile 4.jpeg" alt="">
+                        </div>
+                        <p class="name">Hemant kumar</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 5.jpeg" alt="">
+                        </div>
+                        <p class="name">Praveen meena</p>
+                    </div>
+                    <div class="story">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 2.jpeg" alt="">
+                        </div>
+                        <p class="name">Parth</p>
+                    </div>
+                </div>
+
+                <form class="create-post">
+                    <div class="profile-pic">
+                        <img src="profile picture.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="Hyee... Sarthak let's creat something." id="create-post">
+                    <input type="submit" value="Post" class="btn btn-primary">
+                </form>
+
+                <!------------------FEED------------------>
+
+                <div class="feeds">
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="./images/story profile 1.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Diksha motwani</h3>
+                                 <small>Ram mandir ayodha</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./images/post 1.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="./images/story profile 2.jpeg"></span>
+                             <span><img src="./images/story profile 3.jpeg"></span>
+                             <span><img src="./images/stor profile 4.jpeg"></span>
+                             ,<p>Liked by <b>Akarsh chaturvedi</b>and <b>550 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Diksha motwani</b>JAI SHRI RAM.
+                            <span class="hash-tag">#ramdarshan</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 120 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="./images/story profile 2.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Akarsh chaturvedi</h3>
+                                 <small>Manali 'Manu-Alaya'</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./images/post 2.webp" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="./images/story profile 1.jpeg"></span>
+                             <span><img src="./images/story profile 3.jpeg"></span>
+                             <span><img src="./images/stor profile 4.jpeg"></span>
+                             ,<p>Liked by <b>Parth</b>and <b>1582 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Akarsh chaturvedi</b>Enjoy ever day guyss...
+                            <span class="hash-tag">#enjoy</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 550 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="./images/story profile 3.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Hemant kumar</h3>
+                                 <small>JAI SHRI SHYAM</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./images/post 3.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="./images/story profile 1.jpeg"></span>
+                             <span><img src="./images/story profile 2.jpeg"></span>
+                             <span><img src="./images/story profile 5.jpeg"></span>
+                             ,<p>Liked by <b>Parth</b>and <b>222 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Hemant kumar</b>Khatu naresh ji jai
+                            <span class="hash-tag">#jaishrishyam</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 150 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="./images/story profile 5.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Parth</h3>
+                                 <small>Rishaikesh panching jumping</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./images/post 4.jpeg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="./images/stor profile 4.jpeg"></span>
+                             <span><img src="./images/story profile 1.jpeg"></span>
+                             <span><img src="./images/story profile 3.jpeg"></span>
+                             ,<p>Liked by <b>Hemant kumar</b>and <b>250 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Parth</b>kuch jada hi maza aa gya...
+                            <span class="hash-tag">#punchingjumping</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 210 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="./images/stor profile 4.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Praveen meena</h3>
+                                 <small>Salasar dham</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./images/post 5.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="./images/story profile 1.jpeg"></span>
+                             <span><img src="./images/story profile 2.jpeg"></span>
+                             <span><img src="images/story profile 3.jpeg"></span>
+                             ,<p>Liked by <b>Hemant kumar</b>and <b>620 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Praveen meena</b>JAI SHARI RAM
+                            <span class="hash-tag">#jaishriram</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 527 comments</div>
+                    </div>
+                
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="./images/story profile 5.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Tushar sharma</h3>
+                                 <small>Tonk bisalpur dam</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./images/post 6.jpg" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="./images/stor profile 4.jpeg"></span>
+                             <span><img src="./images/story profile 1.jpeg"></span>
+                             <span><img src="./images/story profile 3.jpeg"></span>
+                             ,<p>Liked by <b>sarthak sharma</b>and <b>555 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Tushar sharma</b>sab dub jaoo...
+                            <span class="hash-tag">#dam</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 40 comments</div>
+                    </div>
+                    <div class="feed">
+                        <div class="head">
+                            
+                        </div>
+                         <div class="user">
+                             <div class="profile-pic">
+                                 <img src="./images/story profile photo 7.jpeg" alt="">
+                             </div>
+                             <div class="info">
+                                 <h3>Pranjali khandwel</h3>
+                                 <small>Vrindawan Radha Rani</small>
+                             </div >
+                             <SPAN class="edit"><i class="uil uil-ellipsis-h"></i></SPAN>
+                         </div>
+
+                         <div class="photo">
+                             <img src="./images/post 7.webp" alt="">
+                         </div>
+
+                         <div class="action-button">
+                             <div class="interaction-button">
+                                 <span><i class="uil uil-thumbs-up"></i></span>
+                                 <span><i class="uil uil-comment"></i></span>
+                                 <span><i class="uil uil-share"></i></span>
+                             </div>
+                             <div class="bookmark">
+                                 <span><i class="uil uil-bookmark"></i></span>
+                             </div>
+                         </div>
+
+                         <div class="liked-by">
+                             <span><img src="./images/stor profile 4.jpeg"></span>
+                             <span><img src="./images/story profile 1.jpeg"></span>
+                             <span><img src="./images/story profile 3.jpeg"></span>
+                             ,<p>Liked by <b>Parth</b>and <b>120 others</b></p>
+                         </div>
+
+                         <div class="caption">
+                             <p><b>Pranjali</b>Jai shri Krishna
+                            <span class="hash-tag">#jaishrikrishna</span></p>
+                         </div>
+                         <div class="comments text-muted">View all 20 comments</div>
+                    </div>
+                </div>
+              </div>
+              
+              <div class="right">
+                  <div class="messages">
+                    <div class="heading">
+                        <h4>Messages</h4>
+                        <span><i class="uil uil-edit"></i></span>
+                    </div>
+  
+                    <div class="search-bar">
+                        <span><i class="uil uil-search"></i></span>
+                        <input type="search" placeholder="Search Messages" id="message-search">
+                    </div>
+  
+                    <div class="category">
+                        <h6 class="active">Primary</h6>
+                        <h6>General</h6>
+                        <h6 class="message-requests">Requests(9)</h6>
+                    </div>
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 1.jpeg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Diksha motwani</h5>
+                            <p class="text-muted">kuch nhi</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="./images/stor profile 4.jpeg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Hemant kumar</h5>
+                            <p class="text-bold">2 New Messages</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 2.jpeg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Parth</h5>
+                            <p class="text-muted">Send a post</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 1.jpeg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Praveen</h5>
+                            <p class="text-bold">Send a post</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="./images/story profile photo 7.jpeg">
+                        </div>
+                        <div class="message-body">
+                            <h5>Pranjali khandelwal/h5>
+                            <p class="text-bold">kya kr rha h</p>
+                        </div>
+                    </div>                             
+                    <div class="message">
+                        <div class="profile-pic">
+                            <img src="./images/story profile 5.jpeg">
+                            <div class="active"></div>
+                        </div>
+                        <div class="message-body">
+                            <h5>Tushar sharma</h5>
+                            <p class="text-bold">6 New Messages</p>
+                        </div>
+                    </div>                                                        
+                </div>
+                <div class="friend-requests">
+                    <h4>Requests</h4>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="./images/jesmain request img.jpeg">
+                            </div>
+                            <div>
+                                <h5>Jesmin</h5>
+                                <p class="text-muted">2 mutual friends</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="./images/nishtha request img.jpeg">
+                            </div>
+                            <div>
+                                <h5>Nishu</h5>
+                                <p class="text-muted">new</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+                    <div class="request">
+                        <div class="info">
+                            <div class="profile-pic">
+                                <img src="./images/tanishka request img.jpeg">
+                            </div>
+                            <div>
+                                <h5>Tanishka</h5>
+                                <p class="text-muted">1 mutual friend</p>
+                                
+                            </div>
+                        </div>
+                        <div class="action">
+                            <button class="btn btn-primary">Accept</button>
+                            <button class="btn">Decline</button>
+                        </div>
+                    </div>
+            
+              </div> 
+
+
+               
+              </div>
+          </div>
+      </main>
+
+      <!--=============THEME CUSTOMIZATION===================-->
+
+      <div class="customize-theme">
+        <div class="card">
+            <h2>Change Theme</h2>
+            <p class="text-muted">Manage your font size, color and backgroung</p>
+
+            <!--===========font size=============-->
+
+            <div class="font-size">
+                <h4>Font Size</h4>
+                <div>
+                    <h6>Aa</h6>
+                    <div class="choose-size">
+                        <span class="font-size-1"></span>
+                        <span class="font-size-2 active"></span>
+                        <span class="font-size-3"></span>
+                        <span class="font-size-4"></span>
+                        <span class="font-size-5"></span>
+                    </div>
+                    <h3>Aa</h3>
+                </div>
+            </div>
+
+            <!--============primeary colur===============-->
+
+            <div class="color">
+                <h4>Color</h4>
+                <div class="choose-color">
+                    <span class="color-1 active"></span>
+                    <span class="color-2"></span>
+                    <span class="color-3"></span>
+                    <span class="color-4"></span>
+                    <span class="color-5"></span>
+                </div>
+            </div>
+
+            <!--============backgroung colors=========-->
+
+            <div class="backgroung">
+                <h4>Background</h4>
+                <div class="choose-bg">
+                    <div class="bg-1 active">
+                        <span></span>
+                        <h5 for="bg-1">Light</h5>
+                    </div>
+                    <div class="bg-2">
+                        <span></span>
+                        <h5>Dark</h5>
+                    </div>
+                    <div class="bg-3">
+                        <span></span>
+                        <h5 for="bg-3">Darker</h5>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+      </div>
+
+      <script src="work.js"></script>
+  </body>
+  
+</html>
